@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+<name>Art Sexy Lightbox</name>
+<author>artetics.com</author>
+<creationDate>August 2009</creationDate>
+<copyright>Copyright (C) 2009 artetics.com. All rights reserved.</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<authorEmail>info@artetics.com</authorEmail>
+<authorUrl>www.artetics.com</authorUrl>
+<version>1.1.5</version>
+<description><![CDATA[Art Sexy Lightbox: this plugin shows photos, photo groups, external pages, Flickr photos, inline content in pretty highly customizable popup window. Please enable plugin in order to use it. <br /><br />Plugin code example:<br />&nbsp;&nbsp;{artsexylightbox path="folder_path"/} - this will read all images from specified folder and display as gallery<br />&nbsp;&nbsp;{artsexylightbox flickr="flickr_user_id"/} - this will read flickr images from specified user and display them as gallery.<br />&nbsp;&nbsp;{artsexylightbox /} - this will add lightbox effect to any link on the page that has rel="sexylightbox" attribute.<br /><br />&copy;&nbsp;<a href="http://www.artetics.com">Artetics.com</a> - Start Point For Your Website.]]></description>
+<files>
+	<filename plugin="artsexylightbox">artsexylightbox.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/js/jquery.js</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/js/jquery.easing.1.3.js</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/js/sexylightbox.v2.2.jquery.min.js</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/js/jquery.flickr.js</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/css/sexylightbox.css</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/bgSexy.gif</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/loading.gif</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/404.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/404html.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/bgSexy.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/SexyBtLeft.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/SexyBtRight.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/black/SexyClose.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/bgSexy.gif</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/loading.gif</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/404.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/404html.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/bgSexy.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/SexyBtLeft.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/SexyBtRight.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/images/white/SexyClose.png</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/json.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/LICENSE</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.asido.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.gd.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.gd_hack.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.imagick_ext.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.imagick_ext_hack.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.imagick_shell.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.imagick_shell_hack.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.magick_wand.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.driver.shell.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.image.php</filename>
+	<filename plugin="artsexylightbox">artsexylightbox/library/asido/class.imagick.php</filename>
+</files>
+<params>
+	<param name="color" type="list" default="black" label="Theme" description="Theme">
+	  <option value="black">black</option>
+	  <option value="white">white</option>
+	</param>
+	<param name="showDuration" type="text" default="200" label="Show duration" description="Show duration" />
+	<param name="closeDuration" type="text" default="400" label="Close duration" description="Close duration" />
+	<param name="moveDuration" type="text" default="800" label="Move duration" description="Move duration" />
+	<param name="resizeDuration" type="text" default="800" label="Resize duration" description="Resize duration" />
+	<param name="previewWidth" type="text" default="" label="Thumbnail width" description="Default thumbnail width" />
+	<param name="previewHeight" type="text" default="" label="Thumbnail height" description="Default thumbnail height" />
+	<param name="flickrApiKey" type="text" default="" label="Flickr API Key" description="Flickr API key - can be retrieved here: http://www.flickr.com/services/api/keys"/>
+</params>
+</install>

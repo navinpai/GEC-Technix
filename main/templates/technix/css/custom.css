@@ -1,0 +1,25 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+}
+
+#logo2 a.logo-icon {
+	display: block;
+	width: 75px;
+	height: 44px;
+	background: url(../../../images/yootheme/logo_small.png) 0 0 no-repeat;
+}
+
+#header div.frontpage1 {
+	width: 800px;
+	height: 300px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+}

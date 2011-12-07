@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+    <name>Sliding Image Links</name>
+    <author>FalsinSoft</author>
+    <copyright>Copyright (C) 2009 FalsinSoft. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>falsinsoft@gmail.com</authorEmail>
+    <authorUrl>http://www.falsinsoft.co.nr/</authorUrl>
+    <creationDate>January 2011</creationDate>
+    <version>1.0</version>
+    <description>DESC_SLIDING_IMAGE_LINKS</description>
+	
+    <files>
+        <filename module="mod_sliding_image_links">mod_sliding_image_links.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>imagemenu/ImageMenu.js</filename>
+        <filename>imagemenu/index.html</filename>
+    </files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_sliding_image_links.ini</language>
+	</languages>
+	
+    <params>
+        <param name="height" type="text" default="100" size="8" label="Control height" description="Height of the control" />	
+        <param name="open_width" type="text" default="300" size="8" label="Panel open width" description="Width of the selected panel (Selected panel is the panel who have the mouse cursor over)" />	
+        <param name="close_width" type="text" default="100" size="8" label="Panel closed width" description="Width of panel when is not selected" />	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="panel_image_path1" type="text" default="" size="50" label="Panel image path 1" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url1" type="text" default="" size="50" label="Panel URL 1" description="URL to assign to the panel" />	
+        <param name="panel_image_path2" type="text" default="" size="50" label="Panel image path 2" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url2" type="text" default="" size="50" label="Panel URL 2" description="URL to assign to the panel" />	
+        <param name="panel_image_path3" type="text" default="" size="50" label="Panel image path 3" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url3" type="text" default="" size="50" label="Panel URL 3" description="URL to assign to the panel" />	
+        <param name="panel_image_path4" type="text" default="" size="50" label="Panel image path 4" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url4" type="text" default="" size="50" label="Panel URL 4" description="URL to assign to the panel" />	
+        <param name="panel_image_path5" type="text" default="" size="50" label="Panel image path 5" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url5" type="text" default="" size="50" label="Panel URL 5" description="URL to assign to the panel" />	
+        <param name="panel_image_path6" type="text" default="" size="50" label="Panel image path 6" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url6" type="text" default="" size="50" label="Panel URL 6" description="URL to assign to the panel" />	
+        <param name="panel_image_path7" type="text" default="" size="50" label="Panel image path 7" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url7" type="text" default="" size="50" label="Panel URL 7" description="URL to assign to the panel" />			
+        <param name="panel_image_path8" type="text" default="" size="50" label="Panel image path 8" description="Path of the image to use for the panel (for example 'images/image.jpg')" />	
+        <param name="panel_url8" type="text" default="" size="50" label="Panel URL 8" description="URL to assign to the panel" />			
+	</params>
+	
+    <params group="advanced">    
+        <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+    </params>
+</install>

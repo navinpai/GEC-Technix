@@ -1,0 +1,103 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #192344 url(../../images/variations/spaceship/page_bg.jpg) 50% 0 no-repeat fixed; }
+#page-body { background: url(../../images/variations/spaceship/page_bg_img.png) 50% 0 no-repeat; }
+.page-body-2,
+.page-body-3 { background: none; }
+
+#breadcrumbs .box-1,
+#breadcrumbs .box-2,
+#breadcrumbs .box-3 { background-image: url(../../images/variations/spaceship/breadcrumbs.png); }
+
+#menubar div.menubar-1,
+#menubar div.menubar-2,
+#menubar div.menubar-3 { background-image: url(../../images/variations/spaceship/menubar.png); }
+
+#footer a.anchor { bottom: 10px; }
+
+div.wrapper-box-b1,
+div.wrapper-box-b2,
+div.wrapper-box-b3,
+div.mod-block div.box-b1,
+div.mod-block div.box-b2,
+div.mod-block div.box-b3 { background-image: url(../../images/variations/spaceship/module_block.png); }
+
+div.footer-box-b1 { margin: 0px 20px 0px 20px; }
+div.footer-box-b2 { padding: 0px 270px 0px 270px; }
+div.footer-box-b1,
+div.footer-box-b2,
+div.footer-box-b3 { background-image: url(../../images/variations/spaceship/footer.png); }
+
+#footer .menu li a { background-image: url(../../images/variations/spaceship/footermenu_item_bg.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #FE7F04; }
+
+h2, h4, h6 { color: #603680; }
+
+a:link,
+a:visited,
+div.mod-menu-plain-left ul.menu a:hover span.bg,
+div.mod-menu-plain-left ul.menu span:hover span.bg,
+div.mod-menu-plain-left ul.menu li.level2 a:hover span.bg,
+div.mod-menu-plain ul.menu a:hover span.bg,
+div.mod-menu-plain ul.menu span:hover span.bg,
+#page ul.links li a:hover { color: #FE7F04; }
+
+a:hover { color: #603680; }
+
+ul.links li { background-image: url(../../images/variations/spaceship/list_links.png); }
+
+/* menus */
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/spaceship/menu_fancy.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/spaceship/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu .group-box1 { background-color: #fe7f04; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/spaceship/menu_dropdown_corners.png); }
+#menu .group-box1 {
+	border: 1px solid #fea650;
+	border-right-color: #cb6603;
+	border-bottom-color: #cb6603;
+}
+#menu .group-box1:hover {
+	border: 1px solid #cb6603;
+	border-right-color: #fea650;
+	border-bottom-color: #fea650;
+}
+
+div.mod-menu-plain-left ul.menu li.level1 .level1 { background-image: url(../../images/variations/spaceship/submenu_level1.png); }
+div.mod-menu-plain-left ul.menu li.level2 span.bg { background-image: url(../../images/variations/spaceship/submenu_level2_item.png); }
+div.mod-menu-plain ul.menu span.bg { background-image: url(../../images/variations/spaceship/submenu2_item.png); }
+
+/* modules */
+div.mod-plain-templatecolor,
+div.mod-block-templatecolor div.box-1 { background: #FE9D3D; }
+
+div.mod-rear div.box-1 { background-color: #515253; }
+div.mod-rear div.box-1,
+div.mod-rear div.box-2 { background-image: url(../../images/variations/spaceship/module_rear.png); }
+
+div.mod-rear-templatecolor div.box-1 { background: #FE7F04; }
+div.mod-rear-templatecolor div.box-1,
+div.mod-rear-templatecolor div.box-2 { background-image: url(../../images/variations/spaceship/module_rear_color.png); }
+
+/* joomla */
+a.readmore { background: url(../../images/variations/spaceship/readmore.png) 0 0 no-repeat; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_spaceship.png); }
+#page #logo2 a.logo-icon { background-image: url(../../../../images/yootheme/logo_small_spaceship.png); }
+
+#page #header div.frontpage1 { background: url(../../../../images/yootheme/yoocarousel/image_01_spaceship.jpg) 0 0 no-repeat; }

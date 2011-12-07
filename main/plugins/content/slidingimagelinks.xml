@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+	<name>Content - Sliding Image Links</name>
+	<author>FalsinSoft</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>Copyright (C) 2010 FalsinSoft. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>falsinsoft@gmail.com</authorEmail>
+	<authorUrl>http://www.falsinsoft.co.nr/</authorUrl>
+	<version>1.2</version>
+	<description>DESC_SLIDING_IMAGE_LINKS</description>
+	<files>
+		<filename plugin="slidingimagelinks">slidingimagelinks.php</filename>
+		<filename plugin="slidingimagelinks">slidingimagelinks/index.html</filename>
+		<filename plugin="slidingimagelinks">slidingimagelinks/ImageMenu.js</filename>
+		<filename plugin="slidingimagelinks">slidingimagelinks/ImageMenu.css</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_slidingimagelinks.ini</language>
+	</languages>	
+	<params/>
+</install>

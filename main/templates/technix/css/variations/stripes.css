@@ -1,0 +1,91 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #dbdbdd; }
+#page-body { background: #ededee url(../../images/variations/stripes/page_bg_b.png) 50% 100% repeat-x; }
+.page-body-2 { background: url(../../images/variations/stripes/page_bg_img.png) 50% 0 no-repeat; }
+.page-body-3 { background: none; }
+
+#breadcrumbs .box-1,
+#breadcrumbs .box-2,
+#breadcrumbs .box-3 { background-image: url(../../images/variations/stripes/breadcrumbs.png); }
+
+div.wrapper-box-b1,
+div.wrapper-box-b2,
+div.wrapper-box-b3,
+div.mod-block div.box-b1,
+div.mod-block div.box-b2,
+div.mod-block div.box-b3 { background-image: url(../../images/variations/stripes/module_block.png); }
+
+div.footer-box-b1,
+div.footer-box-b2,
+div.footer-box-b3 { background-image: url(../../images/variations/stripes/footer.png); }
+
+#footer .menu li a { background-image: url(../../images/variations/stripes/footermenu_item_bg.png); }
+
+.column-left div.left-bg,
+.column-right div.right-bg { background-image: url(../../images/variations/stripes/sidebar_bg.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #8B1A18; }
+
+h2, h4, h6 { color: #323232; }
+
+a:link,
+a:visited,
+div.mod-menu-plain-left ul.menu a:hover span.bg,
+div.mod-menu-plain-left ul.menu span:hover span.bg,
+div.mod-menu-plain-left ul.menu li.level2 a:hover span.bg,
+div.mod-menu-plain ul.menu a:hover span.bg,
+div.mod-menu-plain ul.menu span:hover span.bg,
+#page ul.links li a:hover { color: #8B1A18; }
+
+a:hover { color: #323232; }
+
+ul.links li { background-image: url(../../images/variations/stripes/list_links.png); }
+
+/* menus */
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/stripes/menu_fancy.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/stripes/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu .group-box1 { background-color: #919191; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/stripes/menu_dropdown_corners.png); }
+#menu .group-box1 {
+	border: 1px solid #b2b2b2;
+	border-right-color: #747474;
+	border-bottom-color: #747474;
+}
+#menu .group-box1:hover {
+	border: 1px solid #747474;
+	border-right-color: #b2b2b2;
+	border-bottom-color: #b2b2b2;
+}
+
+div.mod-menu-plain-left ul.menu li.level1 .level1 { background-image: url(../../images/variations/stripes/submenu_level1.png); }
+div.mod-menu-plain-left ul.menu li.level2 span.bg { background-image: url(../../images/variations/stripes/submenu_level2_item.png); }
+div.mod-menu-plain ul.menu span.bg { background-image: url(../../images/variations/stripes/submenu2_item.png); }
+
+/* modules */
+div.mod-plain-templatecolor,
+div.mod-block-templatecolor div.box-1 { background: #AD221F; }
+
+div.mod-rear-templatecolor div.box-1 { background: #8B1B18; }
+div.mod-rear-templatecolor div.box-1,
+div.mod-rear-templatecolor div.box-2 { background-image: url(../../images/variations/stripes/module_rear_color.png); }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_stripes.png); }
+#page #logo2 a.logo-icon { background-image: url(../../../../images/yootheme/logo_small_stripes.png); }
+
+#page #header div.frontpage1 { background: url(../../../../images/yootheme/yoocarousel/image_01_stripes.jpg) 0 0 no-repeat; }

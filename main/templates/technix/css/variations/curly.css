@@ -1,0 +1,91 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #333333; }
+#page-body { background: #ededed url(../../images/variations/curly/page_bg.png) 50% 0 repeat; }
+.page-body-2 { background: url(../../images/variations/curly/page_bg_t.png) 50% 0 repeat-x; }
+.page-body-3 { background: url(../../images/variations/curly/page_bg_b.png) 50% 100% repeat-x; }
+
+#breadcrumbs .box-1,
+#breadcrumbs .box-2,
+#breadcrumbs .box-3 { background-image: url(../../images/variations/curly/breadcrumbs.png); }
+
+#footer a.anchor { bottom: 10px; }
+
+div.wrapper-box-b1,
+div.wrapper-box-b2,
+div.wrapper-box-b3,
+div.mod-block div.box-b1,
+div.mod-block div.box-b2,
+div.mod-block div.box-b3 { background-image: url(../../images/variations/curly/module_block.png); }
+
+div.footer-box-b1 { margin: 0px 20px 0px 20px; }
+div.footer-box-b1,
+div.footer-box-b2,
+div.footer-box-b3 { background-image: url(../../images/variations/curly/footer.png); }
+
+#footer .menu li a { background-image: url(../../images/variations/curly/footermenu_item_bg.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #AD3DCB; }
+
+h2, h4, h6 { color: #6b3f77; }
+
+a:link,
+a:visited,
+div.mod-menu-plain-left ul.menu a:hover span.bg,
+div.mod-menu-plain-left ul.menu span:hover span.bg,
+div.mod-menu-plain-left ul.menu li.level2 a:hover span.bg,
+div.mod-menu-plain ul.menu a:hover span.bg,
+div.mod-menu-plain ul.menu span:hover span.bg,
+#page ul.links li a:hover { color: #AD3DCB; }
+
+a:hover { color: #6b3f77; }
+
+ul.links li { background-image: url(../../images/variations/curly/list_links.png); }
+
+/* menus */
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/curly/menu_fancy.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/curly/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu .group-box1 { background-color: #ad3dcb; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/curly/menu_dropdown_corners.png); }
+#menu .group-box1 {
+	border: 1px solid #c678db;
+	border-right-color: #8a31a2;
+	border-bottom-color: #8a31a2;
+}
+#menu .group-box1:hover {
+	border: 1px solid #8a31a2;
+	border-right-color: #c678db;
+	border-bottom-color: #c678db;
+}
+
+div.mod-menu-plain-left ul.menu li.level1 .level1 { background-image: url(../../images/variations/curly/submenu_level1.png); }
+div.mod-menu-plain-left ul.menu li.level2 span.bg { background-image: url(../../images/variations/curly/submenu_level2_item.png); }
+div.mod-menu-plain ul.menu span.bg { background-image: url(../../images/variations/curly/submenu2_item.png); }
+
+/* modules */
+div.mod-plain-templatecolor,
+div.mod-block-templatecolor div.box-1 { background: #BD5ED5; }
+
+div.mod-rear-templatecolor div.box-1 { background: #AD3DCB; }
+div.mod-rear-templatecolor div.box-1,
+div.mod-rear-templatecolor div.box-2 { background-image: url(../../images/variations/curly/module_rear_color.png); }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_curly.png); }
+#page #logo2 a.logo-icon { background-image: url(../../../../images/yootheme/logo_small_curly.png); }
+
+#page #header div.frontpage1 { background: url(../../../../images/yootheme/yoocarousel/image_01_curly.jpg) 0 0 no-repeat; }

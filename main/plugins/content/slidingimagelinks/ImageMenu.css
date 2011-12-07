@@ -1,0 +1,34 @@
+
+#imageMenu {
+	position: relative;
+	overflow: hidden;
+	margin-left:100px;
+}
+
+#imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	width: 1000px;
+}
+
+#imageMenu ul li {
+	float: left;
+	margin: 0px;
+}
+
+#imageMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+/*************************************************************/
+

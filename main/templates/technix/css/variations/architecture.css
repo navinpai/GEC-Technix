@@ -1,0 +1,114 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #E6E7E8 url(../../images/variations/architecture/page_bg.png) 50% 0 repeat; }
+#page-body,
+.page-body-2,
+.page-body-3 { background: none; }
+
+#breadcrumbs .box-1,
+#breadcrumbs .box-2,
+#breadcrumbs .box-3 { background-image: url(../../images/variations/architecture/breadcrumbs.png); }
+
+#menubar div.menubar-1,
+#menubar div.menubar-2,
+#menubar div.menubar-3 { background-image: url(../../images/variations/architecture/menubar.png); }
+
+div.wrapper-box-b1,
+div.wrapper-box-b2,
+div.wrapper-box-b3,
+div.mod-block div.box-b1,
+div.mod-block div.box-b2,
+div.mod-block div.box-b3 { background-image: url(../../images/variations/architecture/module_block.png); }
+
+div.footer-box-b1,
+div.footer-box-b2,
+div.footer-box-b3 { background-image: url(../../images/variations/architecture/footer.png); }
+
+#footer .menu li a { background-image: url(../../images/variations/architecture/footermenu_item_bg.png); }
+
+.column-left div.left-bg,
+.column-right div.right-bg { background-image: url(../../images/variations/architecture/sidebar_bg.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #AB1111; }
+
+h2, h4, h6 { color: #6a6f8a; }
+
+a:link,
+a:visited,
+div.mod-menu-plain-left ul.menu a:hover span.bg,
+div.mod-menu-plain-left ul.menu span:hover span.bg,
+div.mod-menu-plain-left ul.menu li.level2 a:hover span.bg,
+div.mod-menu-plain ul.menu a:hover span.bg,
+div.mod-menu-plain ul.menu span:hover span.bg,
+#page ul.links li a:hover { color: #AB1111; }
+
+a:hover { color: #5f699d; }
+
+ul.links li { background-image: url(../../images/variations/architecture/list_links.png); }
+
+/* menus */
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/architecture/menu_fancy.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/architecture/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu .group-box1 { background-color: #818599; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/architecture/menu_dropdown_corners.png); }
+#menu .group-box1 {
+	border: 1px solid #a7aab8;
+	border-right-color: #676a7a;
+	border-bottom-color: #676a7a;
+}
+#menu .group-box1:hover {
+	border: 1px solid #676a7a;
+	border-right-color: #a7aab8;
+	border-bottom-color: #a7aab8;
+}
+
+div.mod-menu-plain-left ul.menu li.level1 .level1 { background-image: url(../../images/variations/architecture/submenu_level1.png); }
+div.mod-menu-plain-left ul.menu li.level2 span.bg { background-image: url(../../images/variations/architecture/submenu_level2_item.png); }
+div.mod-menu-plain ul.menu span.bg { background-image: url(../../images/variations/architecture/submenu2_item.png); }
+
+/* modules */
+div.mod-plain-templatecolor,
+div.mod-block-templatecolor div.box-1 { background: #9B9EAE; }
+
+div.mod-rear-templatecolor div.box-1 { background: #818599; }
+div.mod-rear-templatecolor div.box-1,
+div.mod-rear-templatecolor div.box-2 { background-image: url(../../images/variations/architecture/module_rear_color.png); }
+
+/* joomla */
+a.readmore { background: url(../../images/variations/architecture/readmore.png) 0 0 no-repeat; }
+
+/* extensions */
+#page div.default div.yoo-search div.resultbox-bg {
+	border-left: 1px solid #1E1E1F;
+	border-right: 1px solid #1E1E1F;
+	background: #34363F;
+}
+
+#page div.default div.yoo-search div.resultbox-bl { background: url(../../images/variations/architecture/yoosearch/resultbox_bl.png) 0 100% no-repeat; }
+#page div.default div.yoo-search div.resultbox-br { background: url(../../images/variations/architecture/yoosearch/resultbox_br.png) 100% 100% no-repeat; }
+#page div.default div.yoo-search div.resultbox-b { background: url(../../images/variations/architecture/yoosearch/resultbox_b.png) 0 100% repeat-x; }
+#page div.default div.yoo-search span.search-more { background: url(../../images/variations/architecture/yoosearch/more_icon.png) 0 0 no-repeat; }
+#page div.default div.yoo-search h3.search-header { background: url(../../images/variations/architecture/yoosearch/header_bg.png) 0 0 repeat-x; }
+
+#page div.default div.yoo-search .resultbox-bg a { background: #34363F url(../../images/variations/architecture/yoosearch/result_item_bg.png) 0 0 repeat-x; }
+#page div.default div.yoo-search .resultbox-bg a:hover { background: #2d2e36 url(../../images/variations/architecture/yoosearch/result_item_bg_hover.png) 0 0 repeat-x; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_architecture.png); }
+#page #logo2 a.logo-icon { background-image: url(../../../../images/yootheme/logo_small_architecture.png); }
+
+#page #header div.frontpage1 { background: url(../../../../images/yootheme/yoocarousel/image_01_architecture.jpg) 0 0 no-repeat; }

@@ -1,0 +1,27 @@
+======= ABOUT ========
+
+Site design for Technix 5.0 - The National level Techfest of my college, Goa Engineering College, Ponda, Goa
+Event took place over the last week of July 2011, and was a massive success in terms of participation, prize money and plain AWESOMENESS! :)
+
+Concept was 'Panchatattva' (Five Elements). This was the 5th iteration of Technix, hence the theme was in keeping with this.
+The 5 elements are: Agni(Fire), Prithvi(Earth), Vaayu(Wind), Jal (Water), and Antariksha (Space). The whole event was based around this theme.
+
+Site designed using Joomla + Some customised plugins, and a few hacks here and there.
+Homepage zazziness designed in JQuery.
+
+Most design work done by Designer Extraordinaire, Nishkarsh Khandekar (https://www.facebook.com/k.nikks)
+Remaining n00bish design work by Yours Truly! :)
+
+Site currently live at http://gectechnix.in
+(Check screenshots folder for screenshots)
+
+======= FOR ZE NOOBS ========
+1) Create a new database
+2) Import technix.sql into DB
+3) Update configuration.php (Read it for instructions)
+4) RUN! :)
+
+NOTE: If Using XAMPP 1.7.4, the main generates a shitload of (Strict Standards: Non-static Method) errors. This is a known issue of Joomla 1.5.22 with XAMPP!
+To get rid of it, open php.ini (xampp/php/php.ini) and change line 516 to "error_reporting = E_ALL & ~E_NOTICE & ~E_DEPRECATED".
+
+Enjoy! :)

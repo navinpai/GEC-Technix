@@ -1,0 +1,116 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+body.yoopage { background: #000000 url(../../images/variations/distortion/page_bg_img.jpg) 50% 0 repeat-y; }
+#page-body { background: #000000 url(../../images/variations/distortion/page_bg_b.png) 50% 100% repeat-x; } 
+.page-body-2 { background: url(../../images/variations/distortion/page_bg_img.jpg) 50% 0 repeat-y ; } 
+.my-logo { background: url(../../images/header.png) 10% 0 no-repeat ; } 
+.page-body-3 { background: none; }
+
+#breadcrumbs .box-1,
+#breadcrumbs .box-2,
+#breadcrumbs .box-3 { background-image: url(../../images/variations/distortion/breadcrumbs.png); }
+
+#menubar div.menubar-1,
+#menubar div.menubar-2,
+#menubar div.menubar-3 { background-image: url(../../images/variations/distortion/menubar.png); }
+
+div.wrapper-box-b1,
+div.wrapper-box-b2,
+div.wrapper-box-b3,
+div.mod-block div.box-b1,
+div.mod-block div.box-b2,
+div.mod-block div.box-b3 { background-image: url(../../images/variations/distortion/module_block.png); }
+
+div.footer-box-b1,
+div.footer-box-b2,
+div.footer-box-b3 { background-image: url(../../images/variations/distortion/footer.png); }
+
+#footer .menu li a { background-image: url(../../images/variations/distortion/footermenu_item_bg.png); }
+
+/* typography */
+h1,
+#page h1 a,
+h3,
+h5,
+.contentheading,
+.componentheading { color: #D8D8D8; }
+
+h2, h4, h6 { color: #4A5A7F; }
+
+a:link,
+a:visited,
+div.mod-menu-plain-left ul.menu a:hover span.bg,
+div.mod-menu-plain-left ul.menu span:hover span.bg,
+div.mod-menu-plain-left ul.menu li.level2 a:hover span.bg,
+div.mod-menu-plain ul.menu a:hover span.bg,
+div.mod-menu-plain ul.menu span:hover span.bg,
+#page ul.links li a:hover { color: #4d669f; }
+
+a:hover { color: #3D3E3F; }
+
+ul.links li { background-image: url(../../images/variations/distortion/list_links.png); }
+
+/* menus */
+#menu div.fancy div.fancy-1,
+#menu div.fancy div.fancy-2,
+#menu div.fancy div.fancy-3 { background-image: url(../../images/variations/distortion/menu_fancy.png); }
+
+#menu .dropdown-1,
+#menu .dropdown-2 { background-image: url(../../images/variations/distortion/menu_dropdown_edges.png); }
+#menu .dropdown-3,
+#menu .group-box1 { background-color: #429adb; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/variations/distortion/menu_dropdown_corners.png); }
+#menu .group-box1 {
+	border: 1px solid #b6ceff;
+	border-right-color: #429adb;
+	border-bottom-color: #429adb;
+}
+#menu .group-box1:hover {
+	border: 1px solid #7894cc;
+	border-right-color: #4278db;
+	border-bottom-color: #4278db;
+}
+
+div.mod-menu-plain-left ul.menu li.level1 .level1 { background-image: url(../../images/variations/distortion/submenu_level1.png); }
+div.mod-menu-plain-left ul.menu li.level2 span.bg { background-image: url(../../images/variations/distortion/submenu_level2_item.png); }
+div.mod-menu-plain ul.menu span.bg { background-image: url(../../images/variations/distortion/submenu2_item.png); }
+
+/* modules */
+div.mod-plain-templatecolor,
+div.mod-block-templatecolor div.box-1 { background: #8093B5; }
+
+div.mod-rear div.box-1 { background-color: #330000; }
+div.mod-rear div.box-1,
+div.mod-rear div.box-2 { background-image: url(../../images/variations/distortion/module_rear.png); }
+
+div.mod-rear-templatecolor div.box-1 { background: #5E75A1; }
+div.mod-rear-templatecolor div.box-1,
+div.mod-rear-templatecolor div.box-2 { background-image: url(../../images/variations/distortion/module_rear_color.png); }
+
+/* joomla */
+a.readmore { background: url(../../images/variations/distortion/readmore.png) 0 0 no-repeat; }
+
+/* extensions */
+#page div.default div.yoo-search div.resultbox-bg {
+	border-left: 1px solid #1E1E1F;
+	border-right: 1px solid #1E1E1F;
+	background: #34363F;
+}
+
+#page div.default div.yoo-search div.resultbox-bl { background: url(../../images/variations/distortion/yoosearch/resultbox_bl.png) 0 100% no-repeat; }
+#page div.default div.yoo-search div.resultbox-br { background: url(../../images/variations/distortion/yoosearch/resultbox_br.png) 100% 100% no-repeat; }
+#page div.default div.yoo-search div.resultbox-b { background: url(../../images/variations/distortion/yoosearch/resultbox_b.png) 0 100% repeat-x; }
+#page div.default div.yoo-search span.search-more { background: url(../../images/variations/distortion/yoosearch/more_icon.png) 0 0 no-repeat; }
+#page div.default div.yoo-search h3.search-header { background: url(../../images/variations/distortion/yoosearch/header_bg.png) 0 0 repeat-x; }
+
+#page div.default div.yoo-search .resultbox-bg a { background: #330000 url(../../images/variations/distortion/yoosearch/result_item_bg.png) 0 0 repeat-x; }
+#page div.default div.yoo-search .resultbox-bg a:hover { background: #2c0000 url(../../images/variations/distortion/yoosearch/result_item_bg_hover.png) 0 0 repeat-x; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_distortion.png); }
+#page #logo2 a.logo-icon { background-image: url(../../../../images/yootheme/logo_small_distortion.png); }
+
+#page #header div.frontpage1 { background: url(../../../../images/yootheme/yoocarousel/image_01_distortion.jpg) 0 0 no-repeat; }
